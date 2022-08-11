@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/rennanvoa2/evaluate_ner_models/issues"
     },
     license="None",
-    packages=["evaluate_ner_models"],
+    packages=["ner_evaluator"],
     install_requires=["rapidfuzz"],
 )
