@@ -1,4 +1,4 @@
-from ner_evaluator.ner_evaluator import NerEvaluator
+from ner_evaluator import NerEvaluator
 
 entities = [
     (795, 835, "SKILL", "comprehension des contextes strategiques"),
@@ -34,7 +34,6 @@ predictions = [
     (1371, 1385, "SKILL", "parlez anglais"),
 ]
 
-from ner_evaluator.ner_evaluator import NerEvaluator
 
 evaluator = NerEvaluator()
 
