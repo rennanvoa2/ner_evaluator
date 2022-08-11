@@ -1,5 +1,5 @@
 from rapidfuzz import fuzz
-from utils import *
+from ner_evaluator.utils import *
 
 
 class NerEvaluator:
