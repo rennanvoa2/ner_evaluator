@@ -9,11 +9,11 @@ def calculate_scores(tp: int, fp: int, fn: int) -> tuple:
     """
     This function calculates the precision,recall and f1_score.
     """
-    precision = (tp + fp) and round(tp / (tp + fp), 2)
+    precision = tp + fp and round(tp / (tp + fp), 2)
 
-    recall = (tp + fn) and round(tp / (tp + fn), 2)
+    recall = tp + fn and round(tp / (tp + fn), 2)
 
-    f1_score = (precision + recall) and round(2 * (precision * recall) / (precision + recall), 2)
+    f1_score = precision + recall and round(2 * (precision * recall) / (precision + recall), 2)
 
     return precision, recall, f1_score
 
