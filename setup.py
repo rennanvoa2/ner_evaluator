@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = 'ner_evaluator',
     packages = ['ner_evaluator'],
-    version = 'v1.0.3',
+    version = 'v1.0.4',
     description = "Evaluate Named Entity Recognition (NER) models",
     author="Rennan Valadares",
     author_email="rennanvoa2@gmail.com",
