@@ -1,4 +1,5 @@
 import setuptools
+from distutils.core import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -18,4 +19,18 @@ setuptools.setup(
     license="None",
     packages=["ner_evaluator"],
     install_requires=["rapidfuzz"],
+)
+
+
+setup(
+    name = 'my_python_package',
+    packages = ['my_python_package'],
+    version = 'version number',  # Ideally should be same as your GitHub release tag varsion
+    description = 'description',
+    author = '',
+    author_email = '',
+    url = 'github package source url',
+    download_url = 'download link you saved',
+    keywords = ['tag1', 'tag2'],
+    classifiers = [],
 )
